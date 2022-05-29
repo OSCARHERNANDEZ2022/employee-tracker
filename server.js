@@ -1,6 +1,5 @@
 const connection = require("./db/connection");
 const inquirer = require("inquirer");
-// require("console.table");
 
 const updateEmRole = () => {
   let sql = "SELECT * FROM employees";
